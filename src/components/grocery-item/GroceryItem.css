@@ -1,0 +1,31 @@
+.itemWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #8aca8a;
+    border: 1px solid #228b22;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+.itemName {
+    width: 60%;
+}
+
+.itemBtnWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+.itemBtn {
+    width: 70px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.itemBtnWrapper>p  {
+    font-size: 12px;
+}
+.time>p  {
+    font-size: 12px;
+}

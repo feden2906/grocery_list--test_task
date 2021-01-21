@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GroceryListWrapper {
+    width: 70%;
+    padding: 10px;
+}
+
+.formCreate {
+    width: 30%;
+    margin: 10px;
+
+}
+.inputCreate {
+    width: 100%;
+}
+
+.listCreateBtn {
+    width: 100%;
+}
