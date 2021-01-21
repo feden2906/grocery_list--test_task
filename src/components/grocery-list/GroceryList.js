@@ -11,10 +11,12 @@ export const GroceryList = () => {
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem('groceryList'))
-    data.sort((a, b) => {
-      return a.priority - b.priority
-    })
+    if (data.length > 0) {
+      data.sort((a, b) => {
+        return a.priority - b.priority
+      })
     setGroceryList(data)
+    }
   }, [flag])
 
   const getTime = () => {
@@ -96,5 +98,5 @@ export const GroceryList = () => {
         </div>
 
       </div>
-);
+  );
 }
